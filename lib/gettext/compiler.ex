@@ -361,7 +361,6 @@ defmodule Gettext.Compiler do
             unquote(interpolation).runtime_interpolate(msgstr, bindings)
 
           _ ->
-            unquote(interpolation).runtime_interpolate(msgid, bindings)
             lngettext_compiled(locale, domain, msgctxt, msgid, msgid_plural, n, bindings)
         end
       end
