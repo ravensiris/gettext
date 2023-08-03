@@ -6,3 +6,16 @@
 /tmp
 erl_crash.dump
 *.ez
+
+# Devenv
+.devenv*
+devenv.local.nix
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
+
+.nix-mix
+.nix-hex
